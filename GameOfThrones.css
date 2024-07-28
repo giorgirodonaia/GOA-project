@@ -1,0 +1,40 @@
+img {
+  border: dotted;
+  border-color:red
+}
+
+h1{
+    border: dotted;
+    border-color:red;
+    text-align: center;
+    font-size: 80px
+}
+p {
+    border: dotted;
+    border-color:red;
+    font-size: 30px;
+}
+footer{
+    font-size: xx-large;
+    text-align: start;
+    background-color: black;
+    border: solid;
+    border-color: red;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+* {
+    box-sizing: border-box;
+  }

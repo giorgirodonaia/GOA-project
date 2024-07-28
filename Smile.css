@@ -1,0 +1,50 @@
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-size: 80px;
+}
+
+#Smile-img {
+    border: dotted;
+    color: red;
+    position: relative;
+    left: 400px;
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 40px;
+}
+
+footer {
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    border: solid;
+    border-color: red;
+}
+
+#link_for_movie-p {
+    font-size: xx-large;
+    color: white;
+}
+
+#p-mycadry {
+    font-size: 50px;
+    color: red;
+}
+
+#contact-p {
+    font-size: 40px;
+    color: white;
+}
+
+.our_FB {
+    font-size: 30px;
+    color: white;
+}

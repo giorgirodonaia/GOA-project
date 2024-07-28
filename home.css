@@ -1,0 +1,82 @@
+body {
+    background-color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#logo {
+    border: dotted;
+    border-color: red;
+    position: relative;left: 500px;
+    
+}
+
+#header {
+    color: black;
+    text-align: center;
+}
+
+#RG-button {
+    position: relative;
+    background-color: yellow;
+    box-shadow: 2px 5px yellow;
+}
+
+#history-button {
+    position: relative;
+    background-color: red;
+    box-shadow: 2px 5px red;
+}
+
+#Smile {
+    position: relative; left: 230px;
+    
+}
+
+#Game_of_the_Thrones {
+    position: relative; left: 550px;
+                 
+    margin-top: -20.8%;
+}
+
+#Teen_wolf {
+   position: relative; left: 880px; 
+    
+    margin-top: -22%;
+}
+
+#Interstellar {
+    margin-left: 750px;
+    margin-top: 7px;
+    position: relative; right: 525px;
+    
+}
+
+#Green_Book {
+    margin-left: 750px;
+    margin-top: -22%;
+    position: relative; right: 200;
+}
+
+#Blood_and_bone {
+    position: sticky; left: 66%;
+    margin-top: -23.55%;
+}
+
+footer {
+    font-size: xx-large;
+    text-align: start;
+    background-color: black;
+    border: solid;
+    border-color: red;
+    text-align: center;
+}
+
+#contact-p {
+    font-size: 40px;
+    color: white;
+}
+
+.our_FB {
+    font-size: 30px;
+    color: white;
+}

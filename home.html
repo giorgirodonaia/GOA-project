@@ -3,73 +3,85 @@
     <head>
         <title>Information about movies and serias</title>
         <link rel="ikon" href="https://cdn.discordapp.com/attachments/1265730625952940193/1266353354838376529/IMG_20240725_203646_1.jpg?ex=66a4d6f7&is=66a38577&hm=bb8d49">
+        <link rel="stylesheet" href="./home.css">
     </head>
-    <body style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+    <body>
         <header>
-            <img style="border:dotted;border-color:red; position: relative; left: 500" src="https://cdn.discordapp.com/attachments/1265730625952940193/1266353354838376529/IMG_20240725_203646_1.jpg?ex=66a4d6f7&is=66a38577&hm=bb8d49dc338ba6a93a8a18c185d7db694076a05e10d6c1609ae8e2ab10ed5451&"width="300px">
-            <h1 style="color: black; text-align: center;">Information about movies and serias</h1>
+            <img id="logo" src="https://cdn.discordapp.com/attachments/1265730625952940193/1266353354838376529/IMG_20240725_203646_1.jpg?ex=66a4d6f7&is=66a38577&hm=bb8d49dc338ba6a93a8a18c185d7db694076a05e10d6c1609ae8e2ab10ed5451&"width="300px">
+            <h1 id="header">Information about movies and serias</h1>
             <nav>
                 <ul>
                     <li>
-                        <button style="position: relative; background-color: yellow;"><a href="./register.html">Register page</a></button>
+                        <button id="RG-button"><a href="./register.html">Register page</a></button>
                     </li>
                     <br>
                     <li>
-                        <button style="position: relative; background-color: red"><a href="./HistoryOfCinematography">History of cinemotography</a></button>
+                        <button id="history-button"><a href="/HistoryOfCinematography">History of cinemotography</a></button>
                     </li>
                 </ul>
             </nav>
         </header>
         <main>
             <!--Smile image-->
-            <section>
-                <img src="./images.jfif" alt="smile" style="position: relative; left: 230px;" >
-                <a href="./Smile.html" style="text-align: 120px">Smile</a>
-            </section>
+           <section>
+                <p>
+                    <a href="./Smile.html"><img id="Smile" src="./images.jfif" alt="smile"></a>
+                </p>
+           </section>
+           
 
             <!--Game of the Thrones-->
-            <section>
-                <img src="./images (1).jfif" alt="game of the throns" style="position: relative; left: 550px; margin-top: -20.8%">
-            </section>
-            <a href="./GameOfThrones.html" style="text-align: 520px; position: relative; left: 44%">Game Of Thrones</a>
+          <section>
+                <p>
+                    <a href="./GameOfThrones.html"><img id="Game_of_the_Thrones" src="./images (1).jfif" alt="game of the throns"></a>
+                </p>
+          </section>
+           
 
-            <!--Teen wolf-->
+            <!-- Teen wolf -->
             <section>
-                <img src="./images (2).jfif" alt="Teen Wolf" style="position: relative; left: 880px; margin-top: -22%">
+                 <p>
+                <a href="./TeenWolf.html"><img id="Teen_wolf" src="./images (2).jfif" alt="Teen Wolf"></a>
+            </p>
             </section>
-            <a class="teen wolf" href="./TeenWolf.html" style="margin-left: 950px; margin-top: -2%">Teen Wolf</a>
-            <hr>
+           <hr>
+           
             <!--Interstellar-->
             <section>
-                <img src="./images (3).jfif" style="margin-left: 750px; margin-top: 7px; position: relative; right: 525px;">
-                <a href="./Interstellar.html" style="margin-right: 500px; margin-left: 280px;">Interstellar</a>
+                  <p>
+                    <a href="./Interstellar.html"><img id="Interstellar" src="./images (3).jfif"></a>
+                  </p>
             </section>
+          
 
             <!--Green Book-->
-            <section>
-                <img src="./91PWXIp8FOL._AC_UF894,1000_QL80_.jpg" style="margin-left: 750px; margin-top: -22%; position: relative; right: 200;" width="185" height="275">
-                <a href="././Greenbook.html" style="margin-right: 500px; margin-left: 600px">Green Book</a>
-            </section>
-
+           <section>
+                <p>
+                    <a href="./Greenbook.html"><img id="Green_Book" src="./91PWXIp8FOL._AC_UF894,1000_QL80_.jpg" style="margin-left: 750px; margin-top: -22%; position: relative; right: 200;" width="185" height="275"></a>
+                </p>
+           </section>
+            
             <!--Blood and bone-->
-            <section>
-                <img src="./images (4).jfif" style="position: sticky; left: 66%; margin-top: -23.5%">
-            </section>
-            <a class="bb" href="./Blood and bone.html" style="position: relative;margin-left: 70%">Blood and bone</a>
+          <section>
+                <p> 
+                    <a href="./Blood and bone.html"><img id="Blood_and_bone" src="./images (4).jfif "></a>
+                </p> 
+          </section>    
+           
         </main>
         
-        <footer style="font-size: xx-large; text-align: start; background-color:black;border:solid;border-color:red;text-align:center">
-            <p style="font-size:40px;color:white">Contact us on Facebook for help:</p>
+        <footer>
+            <p id="contact-p">Contact us on Facebook for help:</p>
             <nav>
-                <a href="https://www.facebook.com/giorgi.rodonaia.714"><p style="font-size:30px;color:white">Giorgi Rodonaia</p></a>
+                <a href="https://www.facebook.com/giorgi.rodonaia.714"><p class="our_FB">Giorgi Rodonaia</p></a>
                 
-                <a href="https://www.facebook.com/profile.php?id=100088771013194"><p style="font-size:30px;color:white">Nika Kurtanidze</p></a>
+                <a href="https://www.facebook.com/profile.php?id=100088771013194"><p>Nika Kurtanidze</p></a>
                 
-                <a href="https://www.facebook.com/profile.php?id=61561906731447"><p style="font-size:30px;color:white">Nika Vanishvili</p></a>
+                <a href="https://www.facebook.com/profile.php?id=61561906731447"><p>Nika Vanishvili</p></a>
                 
-                <a href="https://www.facebook.com/giorgi.nozadze.31508?rdid=pfJtT0DhGSQHITtf&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FUMLvEmHRjumqCAqc"><p style="font-size:30px;color:white">Giorgi nozadze</p></a>
+                <a href="https://www.facebook.com/giorgi.nozadze.31508?rdid=pfJtT0DhGSQHITtf&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2FUMLvEmHRjumqCAqc"><p>Giorgi nozadze</p></a>
                 
-                <a href="https://www.facebook.com/zuka.gvelesiani.984"><p style="font-size:30px;color:white">Zuka Gvelesiani</p></a>
+                <a href="https://www.facebook.com/zuka.gvelesiani.984"><p>Zuka Gvelesiani</p></a>
             </nav>
         </footer>
     

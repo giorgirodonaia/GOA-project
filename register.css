@@ -1,3 +1,22 @@
 input {
     font-size: 20px ;
 }
+
+footer {
+    font-size: xx-large;
+    text-align: start;
+    background-color: black;
+    border: solid;
+    border-color: red;
+    text-align: center;
+}
+
+#contact-p {
+    font-size: 40px;
+    color: white;
+}
+
+.our_FB {
+    font-size: 30px;
+    color: white;
+}
