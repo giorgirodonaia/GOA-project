@@ -1,0 +1,13 @@
+body {
+    background-color: antiquewhite
+}
+
+p {
+    border:solid;border-color:red;font-size:30px
+}
+h3 {
+    border:dotted;border-color:red;text-align:center;font-size:50px
+}
+.HP{
+    color:red
+}

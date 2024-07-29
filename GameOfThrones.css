@@ -1,40 +1,82 @@
-img {
+body {
+  background-color: antiquewhite;
+}
+
+#logo {
   border: dotted;
-  border-color:red
+  border-color: red;
 }
 
-h1{
-    border: dotted;
-    border-color:red;
-    text-align: center;
-    font-size: 80px
+h1 {
+  border:dotted;
+  border-color:red;
+  text-align:center;
+  text-align: center;
+  font-size: 80px;
 }
+
+#M {
+  color: red;
+}
+
+h2 {
+  border: dotted;
+  border-color: red;
+  text-align: center;
+  font-size: 60px;;
+}
+
+#goback-p {
+  font-size: 50px;
+  color: red;
+  text-align: right;
+}
+
+#rating {
+  border: solid;
+  border-color: rgb(218, 136, 136);
+  font-size: 30px;
+}
+
 p {
-    border: dotted;
-    border-color:red;
-    font-size: 30px;
-}
-footer{
-    font-size: xx-large;
-    text-align: start;
-    background-color: black;
-    border: solid;
-    border-color: red;
-    text-align: center;
+  border: solid;
+  border-color: red;
+  font-size: 30px;
 }
 
-.column {
-    float: left;
-    width: 25%;
-    padding: 5px;
-  }
-  
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
-  
-* {
-    box-sizing: border-box;
-  }
+h3 {
+  border: dotted;
+  border-color: red;
+  text-align: center;
+  font-size:  50px;
+}
+
+
+
+footer {
+  font-size: xx-large;
+  text-align: center;
+  background-color: black;
+  border: solid;
+  border-color: red;
+}
+
+#link_for_movie-p {
+  font-size: xx-large;
+  color: white;
+}
+
+#p-mycadry {
+  font-size: 50px;
+  color: red;
+}
+
+#contact-p {
+  font-size: 40px;
+  color: white;
+}
+
+.our_FB {
+  font-size: 30px;
+  color: white;
+}

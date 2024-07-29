@@ -1,6 +1,8 @@
-body {
-    background-color: antiquewhite;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body { 
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(https://i0.wp.com/picjumbo.com/wp-content/uploads/netflix-website.jpg?w=2210&quality=70);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
 }
 
 #logo {
@@ -11,8 +13,10 @@ body {
 }
 
 #header {
-    color: black;
+    color: white;
     text-align: center;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #RG-button {
