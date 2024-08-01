@@ -3,7 +3,14 @@ body {
 }
 
 h1 {
+    border: dotted;
+    border-color: red;
     text-align: center;
+    font-size: 80px;
+}
+
+#M {
+    color: red;
 }
 
 #p1 {
@@ -12,8 +19,31 @@ h1 {
     font-size: xx-large;
 }
 
+form {
+    
+    text-align: center;
+    font-size: xx-large
+}
+
+#form {
+    position: relative;
+    margin-left: 37%;
+    display: grid;
+    place-items: center;
+    width: 300px;
+    height: 472px;
+    padding: 20px;
+    background-color: #161616;
+    box-shadow: 0px 15px 60px #00FF7F;
+    border-style: solid;
+    border-color: black;
+    
+}
+
 input {
     font-size: 20px ;
+    border-color: black;
+    border-radius: 50px;
 }
 
 footer {

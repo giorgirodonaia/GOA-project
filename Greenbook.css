@@ -1,9 +1,24 @@
 body {
-    background-color: antiquewhite;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(https://www.themoviedb.org/t/p/original/fbGSkZ8zSZSiX5hTzxhJN3QnyB3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 h1 {
-    color: rgb(43, 187, 43);
+    
+    color: red;
+    text-align: center;
+    font-size: 80px;
+    
+}
+
+#M {
+    color: red;
+}
+
+#Green_Book {
+    color: red;
     text-align: center;
     font-size: 80px;
 }
@@ -15,7 +30,7 @@ h1 {
 }
 
 h2 {
-    color: red;
+    color: rgb(76, 236, 76);
     text-align: center;
     font-size: 40px;
 }

@@ -5,12 +5,10 @@ body {
     background-size: cover;  
 }
 
-#logo {
-    border: dotted;
-    border-color: red;
-    position: relative;left: 500px;
-    
+#M {
+    color: red;
 }
+
 
 #header {
     color: white;

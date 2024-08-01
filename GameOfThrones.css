@@ -1,16 +1,18 @@
 body {
-  background-color: antiquewhite;
+  background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(https://i.redd.it/h7uga1bv24fz.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: bottom 50px;
+  background-size: contain;
+  
 }
 
-#logo {
-  border: dotted;
-  border-color: red;
+p {
+  color: white;
+  font-size: 5px;
 }
 
 h1 {
-  border:dotted;
-  border-color:red;
-  text-align:center;
   text-align: center;
   font-size: 80px;
 }
@@ -20,8 +22,7 @@ h1 {
 }
 
 h2 {
-  border: dotted;
-  border-color: red;
+  color: red;
   text-align: center;
   font-size: 60px;;
 }
@@ -34,19 +35,16 @@ h2 {
 
 #rating {
   border: solid;
-  border-color: rgb(218, 136, 136);
-  font-size: 30px;
+  border-color:red;
+  font-size: 20px;
 }
 
 p {
-  border: solid;
-  border-color: red;
-  font-size: 30px;
+  font-size: 20px;
 }
 
 h3 {
-  border: dotted;
-  border-color: red;
+  color: antiquewhite;
   text-align: center;
   font-size:  50px;
 }

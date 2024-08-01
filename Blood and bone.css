@@ -1,6 +1,10 @@
 body {
-    background-color: antiquewhite;
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(http://2.bp.blogspot.com/-Ez8E3aL3jG4/UzLenuQVpdI/AAAAAAAACMc/PJqi-pMIl3A/s1600/blood_and_bone_xlg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
 }
+    
 
 h1 {
     border:dotted;
@@ -34,7 +38,10 @@ h2 {
     text-align: center;
 }
 
-
+p {
+    color: white;
+    font-size: 20px;
+}
 
 #h-p {
     text-align: center;

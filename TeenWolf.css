@@ -1,17 +1,36 @@
 body {
-    background-color: antiquewhite;
-}
+    /* background-color: antiquewhite; */ 
+    background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(https://www.tvtime.com/_next/image?url=https%3A%2F%2Fartworks.thetvdb.com%2Fbanners%2Fposters%2F175001-20.jpg&w=640&q=75);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
 
+    /* background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(https://m.media-amazon.com/images/M/MV5BMThlNTk3YzMtOTZjMi00M2NiLTg1NTgtYThiYzE2MDFmMDUwXkEyXkFqcGdeQXVyNzA5NjUyNjM@._V1_.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  */
+}
 h1 {
-    border: dotted;
-    border-color: blue;
     text-align: center;
     font-size: 80px;
+  }
+h2 {
+    text-align: center;
+    font-size: 80px;
+    color:red
+}
+
+button {
+    font-size: 20px;
+}
+
+p {
+    color: white;
 }
 
 #teenwolf-img {
     border: dotted;
-    border-color: blue;
+    border-color: red;
 }
 
 footer {
@@ -41,3 +60,37 @@ footer {
     font-size: 30px;
     color: white;
 }
+#M {
+    color: red;
+}
+
+  p {
+    font-size: 20px;
+  }
+  footer {
+    font-size: xx-large;
+    text-align: center;
+    background-color: black;
+    border: solid;
+    border-color: red;
+  }
+  
+  #link_for_movie-p {
+    font-size: xx-large;
+    color: white;
+  }
+  
+  #p-mycadry {
+    font-size: 50px;
+    color: red;
+  }
+  
+  #contact-p {
+    font-size: 40px;
+    color: white;
+  }
+  
+  .our_FB {
+    font-size: 30px;
+    color: white;
+  }
