@@ -47,6 +47,11 @@ p {
     text-align: center;
 }
 
+#trailers {
+    display: grid;
+    place-items: center;
+}
+
 footer {
     font-size: xx-large;
     text-align: center;
