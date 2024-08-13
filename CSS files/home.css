@@ -1,3 +1,4 @@
+/* body tag */
 body { 
     background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(https://i0.wp.com/picjumbo.com/wp-content/uploads/netflix-website.jpg?w=2210&quality=70);
     background-repeat: no-repeat;
@@ -5,11 +6,12 @@ body {
     background-size: cover;  
 }
 
+/* M letter in uor logo */
 #M {
     color: red;
 }
 
-
+/* header tag */
 #header {
     color: white;
     text-align: center;
@@ -17,53 +19,112 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+/* registration button */
 #RG-button {
     position: relative;
     background-color: yellow;
     box-shadow: 2px 5px yellow;
 }
 
+/* history in cinomatography buttom */
 #history-button {
     position: relative;
     background-color: red;
     box-shadow: 2px 5px red;
 }
 
+/* Smile button */
 #Smile {
-    position: relative; left: 230px;
-    
+    position: relative;
+    left: 230px;
+    transition: 1s;
 }
 
+/* Smile button hover */
+#Smile:hover {
+    box-shadow: 2px 5px red;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Game of  Thronse button*/
 #Game_of_the_Thrones {
-    position: relative; left: 550px;
-                 
+    position: relative;
+    left: 550px;            
     margin-top: -20.8%;
+    transition: 1s;
 }
 
+/* Game of  Thronse button hover */
+#Game_of_the_Thrones:hover {
+    box-shadow: 2px 5px grey;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Teen wolf */
 #Teen_wolf {
-   position: relative; left: 880px; 
-    
-    margin-top: -22%;
+   position: relative; 
+   left: 880px;
+   margin-top: -22%;
+   transition: 1s;
 }
 
+/* Teen wolf hover */
+#Teen_wolf:hover {
+    box-shadow: 2px 5px blue;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Interstellar */
 #Interstellar {
     margin-left: 750px;
     margin-top: 7px;
-    position: relative; right: 525px;
-    
+    position: relative; 
+    right: 525px;
+    transition: 1s;
 }
 
+/* Interstelaar hover */
+#Interstellar:hover {
+    box-shadow: 2px 5px white;
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Green book */
 #Green_Book {
     margin-left: 750px;
     margin-top: -22%;
-    position: relative; right: 200;
+    position: relative; 
+    right: 200;
+    transition: 1s;
 }
 
+/* Green book hover */
+#Green_Book:hover {
+    box-shadow: 2px 5px rgb(79, 196, 147);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Blood and bone */
 #Blood_and_bone {
-    position: sticky; left: 66%;
+    position: sticky; 
+    left: 66%;
     margin-top: -23.55%;
+    transition: 1s;
 }
 
+/* Blood and bone hover */
+#Blood_and_bone:hover {
+    box-shadow: 2px 5px rgb(207, 207, 72);
+    border-radius: 5px;
+    transform: scale(1.1);
+}
+
+/* Footer tag */
 footer {
     font-size: xx-large;
     text-align: start;

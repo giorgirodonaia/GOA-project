@@ -1,3 +1,4 @@
+/* body tag */
 body {
     background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(https://m.media-amazon.com/images/M/MV5BZjdkOTU3MDktN2IxOS00OGEyLWFmMjktY2FiMmZkNWIyODZiXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg);
     background-repeat: no-repeat;
@@ -22,6 +23,12 @@ p {
     margin-top: 30px;
 }
 
+#goback-p {
+    font-size: 50px;
+    color: red;
+    text-align: right;
+  }
+
 
 #Interstellar-img {
     position: relative;
@@ -30,11 +37,24 @@ p {
 
 #h2-Plot {
     text-align: center;
+    font-size: 40px;
 }
 
 #h2-Cast {
     text-align: center;
+    font-size: 40px;
 }
+
+#h2-trailers {
+    text-align: center;
+    font-size: 40px;
+}
+
+#trailers {
+    display: grid;
+    place-items: center;
+}
+
 
 footer {
     font-size: xx-large;

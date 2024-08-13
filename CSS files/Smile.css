@@ -1,3 +1,4 @@
+/* body tag */
 body {
     
     background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.5)), url(https://static1.srcdn.com/wordpress/wp-content/uploads/2022/09/Smile-Final-Movie-Poster.jpg);
@@ -7,24 +8,40 @@ body {
     
 }
 
+/* our logo */
 h1 {
     color: red;
     text-align: center;
     font-size: 80px;
 }
 
-
+/* all text(paragraph tag) */
 p {
     color: white;
     font-size:20px
 }
 
+/* all header */
 h2 {
     color: red;
     text-align: center;
     font-size: 40px;
 }
 
+/* go back to home pahe button */
+#goback-p {
+    font-size: 50px;
+    color: red;
+    text-align: right;
+  }
+
+/* trailers position in page */
+#trailers {
+    display: grid;
+    place-items: center;
+}
+
+/* footer tag */
 footer {
     font-size: xx-large;
     text-align: center;
@@ -33,11 +50,13 @@ footer {
     border-color: red;
 }
 
+/* link for movie-text */
 #link_for_movie-p {
     font-size: xx-large;
     color: white;
 }
 
+/* My cadry paragraph */
 #p-mycadry {
     font-size: 50px;
     color: red;

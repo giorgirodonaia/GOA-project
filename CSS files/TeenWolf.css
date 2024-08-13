@@ -20,6 +20,12 @@ h2 {
     color:red
 }
 
+#goback-p {
+  font-size: 50px;
+  color: red;
+  text-align: right;
+}
+
 button {
     font-size: 20px;
 }
@@ -32,6 +38,12 @@ p {
     border: dotted;
     border-color: red;
 }
+
+#trailers {
+  display: grid;
+  place-items: center;
+}
+
 
 footer {
     font-size: xx-large;
