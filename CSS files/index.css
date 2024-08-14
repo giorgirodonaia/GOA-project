@@ -6,31 +6,70 @@ body {
     background-size: cover;  
 }
 
-/* M letter in uor logo */
-#M {
-    color: red;
+#first-nav {
+    display: flex;
+    border-style: solid;
+    border-color: grey;
+    
 }
+
+
+nav ul li {
+    display: inline;
+    margin-left: 600px;
+    padding: 0;
+}
+
 
 /* header tag */
 #header {
+    background: url(https://i.pinimg.com/236x/96/16/d5/9616d593d90be28e9c69b9fec05f57fd.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     color: white;
     text-align: center;
     font-size: 50px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:  sans-serif;
 }
 
 /* registration button */
 #RG-button {
     position: relative;
-    background-color: yellow;
-    box-shadow: 2px 5px yellow;
+    font-size: 20px;
+    margin-left: -250px;
+    margin-top: 18px;
+    border-radius: 5px;
+    transition: 1s;
 }
 
-/* history in cinomatography buttom */
+/* registration button hover */
+#RG-button:hover {
+    box-shadow: 2px 2px grey;
+    background-color: rgb(184, 107, 107);
+    transform: scale(1.1);
+}
+
+/* history of cinomatography butto */
 #history-button {
     position: relative;
-    background-color: red;
-    box-shadow: 2px 5px red;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: -30px;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+/* history of cinomatography button hover */
+#history-button:hover {
+    box-shadow: 1px 2px grey;
+    background-color: rgb(184, 107, 107);
+    transform: scale(1.1);
+}
+
+/* all a tag in button tag */
+nav ul li button a {
+    text-decoration: none;
 }
 
 /* Smile button */

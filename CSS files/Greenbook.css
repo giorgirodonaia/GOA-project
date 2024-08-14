@@ -53,20 +53,29 @@ h2 {
     place-items: center;
 }
 
+
 /* first image to right */
 #one {
-    text-align: right;
-    margin-top: -1220px;
+    text-align: center;
+    margin-top: -820px;
+}
+
+#four{
+    text-align: center;
+    margin-top: -400px;
 }
 
 /* second image to right */
 #two{
     text-align: right;
+    margin-top: -370px;
+
 }
 
 /* thrid image to right */
 #three{
     text-align: right;
+    margin-top: 0px;
 }
 
 /* footer tag */

@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(92, 20, 20);
+    background-color: rgba(34, 32, 32)
 }
 
 h1 {
@@ -49,9 +49,8 @@ input {
 footer {
     font-size: xx-large;
     text-align: start;
-    background-color: black;
+    background-color: gray;
     border: solid;
-    border-color: red;
     text-align: center;
 }
 
