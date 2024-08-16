@@ -8,14 +8,7 @@ body {
     
 }
 
-/* our logo */
-/* h1 {
-    color: red;
-    text-align: center;
-    font-size: 80px;
-} */
-
-/* Information about movies and series h1 tag */
+/* h1 tag */
 h1 {
 
     font-size: 20px;
@@ -124,6 +117,31 @@ h2 {
     place-items: center;
 }
 
+/*photo center*/
+
+#one {
+    text-align: center;
+ 
+}
+
+#four{
+    text-align: center;
+    margin-top: -730px
+}
+
+/*photo right*/
+
+#two{
+    text-align: right;
+    margin-top: -700px
+}
+
+#three{
+    text-align: right;
+    
+}
+
+
 /* footer tag */
 footer {
     font-size: xx-large;
@@ -131,11 +149,17 @@ footer {
     border-style: solid;
     border-color: grey;
     background-color: rgba(41, 41, 41, 0.377);
+
+}
+
+#right{
+    text-align: right;
+    margin-top: -230px;
+    margin-right: 2%;
 }
 
 /* #p_in_footer {
-    margin-left: 80%;
-    margin-top: 10%;
+text-align: end;
 } */
 
 /* link for movie-text */
@@ -146,6 +170,7 @@ footer {
 
 /* My cadry paragraph */
 #p-mycadry {
+    text-align: center;
     font-size: 30px;
     color: red;
 }

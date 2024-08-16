@@ -93,11 +93,35 @@ nav ul li {
 nav ul li button a {
   text-decoration: none;
 }
-
+/*h2 titles*/
   h2 {
     text-align: center;
-    font-size: 80px;
+    font-size: 40px;
     color:red
+}
+
+/* first image to right */
+#one {
+  text-align: center;
+  margin-top: -920px;
+}
+
+#four{
+  text-align: center;
+  margin-top: -340px;
+}
+
+/* second image to right */
+#two{
+  text-align: right;
+  margin-top: -390px;
+
+}
+
+/* thrid image to right */
+#three{
+  text-align: right;
+  margin-top: 30px;
 }
 
 #goback-p {
@@ -125,47 +149,15 @@ p {
 }
 
 
-footer {
-    font-size: xx-large;
-    text-align: center;
-    background-color: black;
-    border: solid;
-    border-color: red;
-}
 
-#link_for_movie-p {
-    font-size: xx-large;
-    color: white;
-}
-
-#p-mycadry {
-    font-size: 50px;
-    color: red;
-}
-
-#contact-p {
-    font-size: 40px;
-    color: white;
-}
-
-.our_FB {
-    font-size: 30px;
-    color: white;
-}
-#M {
-    color: red;
-}
-
-  p {
-    font-size: 20px;
-  }
   footer {
     font-size: xx-large;
-    text-align: center;
-    background-color: black;
-    border: solid;
-    border-color: red;
-  }
+    text-align: start;
+    border-style: solid;
+    border-color: grey;
+    background-color: rgba(41, 41, 41, 0.377);
+
+}
   
   #link_for_movie-p {
     font-size: xx-large;
@@ -173,9 +165,10 @@ footer {
   }
   
   #p-mycadry {
-    font-size: 50px;
+    text-align: center;
+    font-size: 30px;
     color: red;
-  }
+}
   
   #contact-p {
     font-size: 40px;
@@ -183,6 +176,13 @@ footer {
   }
   
   .our_FB {
-    font-size: 30px;
+    margin-left: 10px;
+    font-size: 15px;
     color: white;
-  }
+}
+
+  #right{
+    text-align: right;
+    margin-top: -230px;
+    margin-right: 2%;
+}

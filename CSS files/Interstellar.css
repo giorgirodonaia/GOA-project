@@ -8,7 +8,6 @@ body {
 
 /* Information about movies and series h1 tag */
 h1 {
-
     font-size: 20px;
     margin-left: 20px;
     transition: 1s;
@@ -106,7 +105,10 @@ p {
     position: relative;
     left: 400px;
 }
-
+#h2-title{
+    text-align:center;
+    font-size:40px
+}
 #h2-Plot {
     text-align: center;
     font-size: 40px;
@@ -131,7 +133,7 @@ p {
 
 #one {
     text-align: center;
-    margin-top: -760px;
+    margin-top: -850px;
 }
 
 #four{
@@ -143,7 +145,7 @@ p {
 
 #two{
     text-align: right;
-    margin-top: -380px;
+    margin-top: -400px;
 }
 
 #three{
@@ -152,30 +154,46 @@ p {
 }
 
 
+/* footer tag */
 footer {
     font-size: xx-large;
-    text-align: center;
-    background-color: black;
-    border: solid;
-    border-color: red;
+    text-align: start;
+    border-style: solid;
+    border-color: grey;
+    background-color: rgba(41, 41, 41, 0.377);
+
 }
 
+#right{
+    text-align: right;
+    margin-top: -300px;
+    margin-right: 2%;
+}
+
+/* #p_in_footer {
+text-align: end;
+} */
+
+/* link for movie-text */
 #link_for_movie-p {
-    font-size: xx-large;
+    font-size: 20px;
     color: white;
 }
 
+/* My cadry paragraph */
 #p-mycadry {
-    font-size: 50px;
+    text-align: center;
+    font-size: 30px;
     color: red;
 }
 
 #contact-p {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 
 .our_FB {
-    font-size: 30px;
+    margin-left: 10px;
+    font-size: 15px;
     color: white;
 }

@@ -197,18 +197,30 @@ nav ul li button a {
 footer {
     font-size: xx-large;
     text-align: start;
-    background-color: black;
-    border: solid;
-    border-color: red;
-    text-align: center;
+    border-style: solid;
+    border-color: grey;
+    background-color: rgba(41, 41, 41, 0.377);
+
 }
 
+#right{
+    text-align: right;
+    margin-top: -230px;
+    margin-right: 2%;
+}
+
+
 #contact-p {
-    font-size: 40px;
+    font-size: 30px;
     color: white;
 }
 
 .our_FB {
-    font-size: 30px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+}
+
+p {
     color: white;
 }
